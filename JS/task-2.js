@@ -7,4 +7,6 @@ if (ordered > total) {
 else {
     console.log('Заказ оформлен, с вами свяжется менеджер')
 }
-    
+
+//const message = ordered > total ? ‘На складе недостаточно твоаров!’ : ‘Заказ оформлен, с вами свяжется менеджер’
+//    console.log(message) 
