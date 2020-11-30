@@ -9,7 +9,7 @@ let balance;
 if (countDroide === null) {
     message = 'Отменено пользователем!'
 } else {
-    totalPrice = countDroide * pgricePerDroid;
+    totalPrice = countDroide * pricePerDroid;
     balance = credit - totalPrice;
     if (balance >= 0) {
         message = `Вы купили ${countDroide} дроидов, на счету осталось ${balance} кредитов.`
