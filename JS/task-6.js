@@ -19,7 +19,3 @@ do {
 } while (true);
 
 alert (`Общая сумма чисел равна ${total}`)
-
-let a;
-a = true && 5 > 3 && "javascript"
-console.log (a)
